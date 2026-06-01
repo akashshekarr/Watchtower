@@ -1,0 +1,8 @@
+{
+  "_comment": "Spike detection settings. A key is flagged when its latest-day cost exceeds 'multiplier' times its average over the prior 'lookback_days' (and is over $1).",
+  "spike_detection": {
+    "enabled": true,
+    "lookback_days": 7,
+    "multiplier": 3.0
+  }
+}
